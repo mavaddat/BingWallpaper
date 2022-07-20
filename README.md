@@ -5,11 +5,11 @@ Daily triggered automatically at 0:00 UTC.
 Automatic rescheduling if the system is not powered on or not connected to the Internet
 
 Minimum requirements: 
- - Win7
+ - Win7 <img src="https://gist.githubusercontent.com/mavaddat/b2027570b3d28e9b7a1a0ce237796cc9/raw/21226dfc1ac200067afcc527d76acce5012fe7a5/win7.svg" width="30vw"/>
 
 ## How to Use
 
-Move the mouse over the command, click three times in a row, `Ctrl+C`, `Win+R`, `Ctrl+V`, `Enter`
+To accomplish the tasks below, copy-paste the respective PowerShell commands into a PowerShell terminal.
 
 ### Install
 
