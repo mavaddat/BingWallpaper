@@ -1,6 +1,6 @@
 # Windows Daily Bing Wallpaper
 
-Daily triggered automatically at 0:00 UTC.
+Triggered daily at 0:00 UTC.
 
 Automatic rescheduling if the system is not powered on or not connected to the Internet
 
@@ -9,21 +9,21 @@ Minimum requirements:
 
 ## How to Use
 
-To accomplish the tasks below, copy-paste the respective PowerShell commands into a PowerShell terminal.
+To accomplish the tasks below, copy-paste the relevant PowerShell commands into a PowerShell terminal.
 
 ### Install
 
-```ps1
-powershell [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor 3072; (New-Object Net.WebClient).DownloadString('https://raw.fastgit.org/star2000/BingWallpaper/master/ install.ps1') | iex
+```pwsh
+powershell [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor 3072; (New-Object Net.WebClient).DownloadString('https://raw.fastgit.org/mavaddat/BingWallpaper/master/ install.ps1') | iex
 ````
 
 ### Uninstall
 
-```ps1
-powershell [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor 3072; (New-Object Net.WebClient).DownloadString('https://raw.fastgit.org/star2000/BingWallpaper/master/ uninstall.ps1') | iex
+```pwsh
+powershell [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor 3072; (New-Object Net.WebClient).DownloadString('https://raw.fastgit.org/mavaddat/BingWallpaper/master/ uninstall.ps1') | iex
 ````
 
-## set up
+## Configure
 
 Change behavior via environment variables
 ```bat
@@ -32,7 +32,7 @@ setx "environment variable name" "environment variable value"
 
 Manual refresh execution
 ```bat
-schtasks /Run /TN "\star2000\BingWallpaper"
+schtasks /Run /TN "\mavaddat\BingWallpaper"
 ````
 
 - save route
